@@ -20,17 +20,6 @@ If a chatbot's response has a positive sentiment, the conversation moves to the 
 
 The summary bots summarize the conversation so far. They also serve as end nodes in the tree structure.
 
-## Setup and Requirements
-
-This project uses Python 3 and requires several libraries, including openai, nltk, json, and rake_nltk.
-
-To set up the project:
-
-Clone the repository.
-Install the required libraries using pip: pip install -r requirements.txt
-Set up the OpenAI API key in your environment variables.
-Run the script with: python bbBOT.py
-
 ## Usage
 
 You will be prompted to input your query and the number of chatbots. You can then customize the name, character role, and temperature for each chatbot and the summary bots. If you leave these inputs blank, default values will be used.
