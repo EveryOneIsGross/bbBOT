@@ -1,7 +1,7 @@
 # bbBOT
 ## Binary Branching Tree Logic Framework for Persona-Based Sentiment Reflection
 
-bbBOT is a Python project that uses OpenAI's GPT-3 to generate responses from multiple chatbots with unique personas. The chatbots form a binary branching tree logic network, where the path of the conversation is determined by the sentiment detected in each chatbot's response. Each node in the network represents a chatbot, and the conversation flows from one chatbot to another based on whether the sentiment of a chatbot's response is positive or negative. The tree structure ends with two summary bots that summarize the conversation so far.
+bbBOT uses OpenAI API to generate responses from multiple chatbots with unique personas. The chatbots form a binary branching tree logic network, where the path of the conversation is determined by the sentiment detected in each chatbot's response. Each node in the network represents a chatbot, and the conversation flows from one chatbot to another based on whether the sentiment of a chatbot's response is positive or negative. The tree structure ends with two summary bots that summarize the conversation so far.
 
 ## Features
 
